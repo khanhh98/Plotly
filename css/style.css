@@ -1,0 +1,7 @@
+
+.jumbotron {
+    color: #ff0000;
+    background-image: url(../pic.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
