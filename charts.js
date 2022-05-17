@@ -144,7 +144,7 @@ function buildCharts(sample) {
         type: "indicator",
         mode: "gauge+number",
         value: washFreq,
-        title: { text: "Belly Button Wash Frequency", font: { size: 24 } },
+        title: { text: "<b>Belly Button Wash Frequency</b> <br> Scrubs per Week", font: { size: 24 } },
         gauge: {
           axis: { range: [null, 10], tickwidth: 1, tickcolor: "black" },
           bar: { color: "black" },
@@ -167,7 +167,7 @@ function buildCharts(sample) {
     var gaugeLayout = {
       margin: { t: 25, r: 25, l: 25, b: 25 },
       paper_bgcolor: "white",
-      font: {color: "darkblue", family: "Arial"},
+      font: {color: "black", family: "Arial"},
 
     };
 
